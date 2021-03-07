@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+            
+        </style>
+    </head>
+    <body>
+        <div id="main-container">
+
+         <!-------------------------------------------Navigation Panel------------------------------------------------->
+            
+         <div id="nav-panel-wrapper"></div>
+         <div id="nav-panel">
+                <div id="menu-elem-wrapper">
+                    <div class="menu-elem"><i class="fas fa-inbox menu-elem-icons"></i>Inbox</div>
+                    <div class="menu-elem"><i class="far fa-star menu-elem-icons"></i>Today</div>
+                    <div class="menu-elem"><i class="far fa-calendar menu-elem-icons"></i>Upcoming</div>
+                    <div class="menu-elem"><i class="far fa-calendar menu-elem-icons"></i>Anytime</div>
+                    <div class="menu-elem"><i class="far fa-clipboard menu-elem-icons"></i>Someday</div>
+                    <div class="menu-elem"><i class="far fa-trash-alt menu-elem-icons"></i>Trash</div>
+                </div>
+                <div id="filter-section-wrapper">
+                    <div class="filter-section color-first">
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Family</span>
+                            </label>
+                        </div>
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Vacation Planning</span>
+                            </label>
+                        </div>
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Buy a new car</span>
+                            </label>
+                        </div>    
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Festival Ideas</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-section color-sec">
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Work</span>
+                            </label>
+                        </div>
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Onboarding Plan</span>
+                            </label>
+                        </div>
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Invoice Review</span></label>
+                        </div>    
+                        <div class="group">
+                            <label class="filter-options">
+                                <input type="checkbox" name="" id="family" />
+                                <span class="checkmark"></span>
+                                <span class="filter-name">Presentation Work</span>
+                            </label>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div id="add-icon"><span id="add-option">+</span></div>
+          </div>
+
+          <!--------------------------------------------Task Section-------------------------------------------------->
+          <div id="task-section">
+              <div>
+                  <h1>Today's Task</h1>
+                  <div id="classifications">
+                     <div class="task-tab">
+                         <span>10</span>
+                         All
+                     </div>
+                     <div class="task-tab active">Important</div>
+                     <div class="task-tab">
+                         <span>05</span>
+                         Notes
+                     </div>
+                     <div class="task-tab">Links</div>
+                 </div>
+              </div>
+              <!----------------------------Task List--------------------------------->
+              <div id="task-wrapper">
+                  <div class="task-lists">
+                    <label class="">
+                        <input type="checkbox" name="" id="family" />
+                        <span class="checkmark task-check"></span>
+                         Create Userflow Social Application Design
+                    </label>
+                    <button class="status-btn approved">Approved</button>
+                  </div>
+                  
+                  <div class="task-lists">
+                    <label class="">
+                        <input type="checkbox" name="" id="family" />
+                        <span class="checkmark task-check"></span>
+                         Homepage Design For Simmuch Product
+                    </label>
+                    <button class="status-btn in-progress">In Progress</button>
+                  </div>
+                 
+                  <div class="task-lists">
+                    <label class="">
+                        <input type="checkbox" name="" id="family" />
+                        <span class="checkmark task-check"></span>
+                         Interactive prototype design - Web design
+                    </label>
+                    <button class="status-btn in-review">In Review</button>
+                  </div>
+                 
+                  <div class="task-lists">
+                    <label class="">
+                        <input type="checkbox" name="" id="family" />
+                        <span class="checkmark task-check"></span>
+                         Create Application Design For Topbuzz
+                    </label>
+                    <button class="status-btn in-review">In Review</button>
+                  </div>
+                  
+                  <div class="task-lists">
+                    <label class="">
+                        <input type="checkbox" name="" id="family" />
+                        <span class="checkmark task-check"></span>
+                         Make a wireframe for Courier Delivery App
+                    </label>
+                    <button class="status-btn in-progress">In Progress</button>
+                  </div>
+                  
+                  <div class="task-lists">
+                    <label class="">
+                        <input type="checkbox" name="" id="family" />
+                        <span class="checkmark task-check"></span>
+                         Create Marketplaces Dashboard Design
+                    </label>
+                    <button class="status-btn waiting">Waiting</button>
+                  </div>
+
+              </div>
+
+              <div id="upcoming-tasks">
+                  <div id="heading-wrapper">
+                      <h1>Upcoming Tasks</h1>
+                      <span><i class="fas fa-ellipsis-h"></i></span> 
+                  </div>
+                  <div id="task-wrapper">
+                      <div class="task-lists">
+                        <label class="">
+                            <input type="checkbox" name="" id="family" />
+                            <span class="checkmark task-check"></span>
+                             Make a wireframe for Courier Delivery App
+                        </label>
+                        <button class="status-btn waiting">Waiting</button>
+                      </div>
+                     
+                      <div class="task-lists">
+                        <label class="">
+                            <input type="checkbox" name="" id="family" />
+                            <span class="checkmark task-check"></span>
+                             Create Marketplaces Dashboard Design
+                        </label>
+                        <button class="status-btn waiting">Waiting</button>
+                      </div>
+                     
+                      <div class="task-lists">
+                        <label class="">
+                            <input type="checkbox" name="" id="family" />
+                            <span class="checkmark task-check"></span>
+                             Make a wireframe for Courier Delivery App
+                        </label>
+                        <button class="status-btn waiting">Waiting</button>
+                      </div>
+                      
+                      <div class="task-lists">
+                        <label class="">
+                            <input type="checkbox" name="" id="family" />
+                            <span class="checkmark task-check"></span>
+                             Create Marketplaces Dashboard Design
+                        </label>
+                        <button class="status-btn waiting">Waiting</button>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <!----------------------------------------Meeting Schedule--------------------------------------------->
+          <div id="meeting-schedule">
+              <div id="title-section">
+                 <div>
+                    <i class="far fa-user user-logo"></i>
+                    <span id="meeting-token">5</span>
+                 </div>
+                 <h5>Meetings Schedule</h5>
+              </div>
+
+              <div id="cards-section">
+                  <div class="meeting-cards">
+                      <div class="time-wrapper">
+                          <p>8:05 AM - 9:20 AM</p>
+                          <span><i class="fas fa-ellipsis-v"></i></span>
+                      </div>
+                      <h4>Meetings Nazmul Hassan</h4>
+                      <div class="attendees">
+                          <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                          <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                          <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                          <img src="https://images-na.ssl-images-amazon.com/images/I/61CdsffWBJL._AC_SL1004_.jpg" alt="attendee-4" class="attendee-profile">
+                          <img src="https://c4.wallpaperflare.com/wallpaper/388/575/769/women-fantasy-art-wallpaper-preview.jpg" alt="attendee-5" class="attendee-profile">
+                      </div>
+                  </div>
+                  
+                 <div class="meeting-cards">
+                    <div class="time-wrapper">
+                        <p>8:05 AM - 9:20 AM</p>
+                        <span><i class="fas fa-ellipsis-v"></i></span>
+                    </div>
+                    <h4>Product Development Team</h4>
+                    <div class="attendees-wrapper">
+                        <div class="attendees">
+                            <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                            <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                            <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                        </div>
+                        <div class="joining-status"><i class="fas fa-check"></i>You Joined</div>
+                    </div>
+                  </div>
+                  
+                  <div class="meeting-cards">
+                    <div class="time-wrapper">
+                        <p>8:05 AM - 9:20 AM</p>
+                        <span><i class="fas fa-ellipsis-v"></i></span>
+                    </div>
+                    <h4>Product Planning</h4>
+                    <div class="attendees">
+                        <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                        <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                        <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61CdsffWBJL._AC_SL1004_.jpg" alt="attendee-4" class="attendee-profile">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/388/575/769/women-fantasy-art-wallpaper-preview.jpg" alt="attendee-5" class="attendee-profile">
+                    </div>
+                  </div>
+                  
+                  <div class="meeting-cards">
+                    <div class="time-wrapper">
+                        <p>8:05 AM - 9:20 AM</p>
+                        <span><i class="fas fa-ellipsis-v"></i></span>
+                    </div>
+                    <h4>Social Product Team</h4>
+                    <div class="attendees-wrapper">
+                        <div class="attendees">
+                            <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                            <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                            <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                        </div>
+                        <div class="joining-status">+ 13 Members</div>
+                    </div>
+                  </div>
+                  
+                  <div class="meeting-cards">
+                    <div class="time-wrapper">
+                        <p>8:05 AM - 9:20 AM</p>
+                        <span><i class="fas fa-ellipsis-v"></i></span>
+                    </div>
+                    <h4>Meetings Nazmul Hassan</h4>
+                    <div class="attendees">
+                        <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                        <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                        <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61CdsffWBJL._AC_SL1004_.jpg" alt="attendee-4" class="attendee-profile">
+                        <img src="https://c4.wallpaperflare.com/wallpaper/388/575/769/women-fantasy-art-wallpaper-preview.jpg" alt="attendee-5" class="attendee-profile">
+                    </div>
+                </div>
+                
+               <div class="meeting-cards">
+                  <div class="time-wrapper">
+                      <p>8:05 AM - 9:20 AM</p>
+                      <span><i class="fas fa-ellipsis-v"></i></span>
+                  </div>
+                  <h4>Product Development Team</h4>
+                  <div class="attendees-wrapper">
+                      <div class="attendees">
+                          <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                          <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                          <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                      </div>
+                      <div class="joining-status"><i class="fas fa-check"></i>You Joined</div>
+                  </div>
+                </div>
+                
+                <div class="meeting-cards">
+                  <div class="time-wrapper">
+                      <p>8:05 AM - 9:20 AM</p>
+                      <span><i class="fas fa-ellipsis-v"></i></span>
+                  </div>
+                  <h4>Product Planning</h4>
+                  <div class="attendees">
+                      <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                      <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                      <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                      <img src="https://images-na.ssl-images-amazon.com/images/I/61CdsffWBJL._AC_SL1004_.jpg" alt="attendee-4" class="attendee-profile">
+                      <img src="https://c4.wallpaperflare.com/wallpaper/388/575/769/women-fantasy-art-wallpaper-preview.jpg" alt="attendee-5" class="attendee-profile">
+                  </div>
+                </div>
+                
+                <div class="meeting-cards">
+                  <div class="time-wrapper">
+                      <p>8:05 AM - 9:20 AM</p>
+                      <span><i class="fas fa-ellipsis-v"></i></span>
+                  </div>
+                  <h4>Social Product Team</h4>
+                  <div class="attendees-wrapper">
+                      <div class="attendees">
+                          <img src="https://i.pinimg.com/originals/5e/66/1c/5e661cd21f6cdbeaf4872a50869a3d7a.jpg" alt="attendee-1" class="attendee-profile">
+                          <img src="https://s3.amazonaws.com/gallerist-live/products/35066/large/red-hat-women.jpg?1596694267" alt="attendee-2" class="attendee-profile">                         
+                          <img src="https://cdn.shopify.com/s/files/1/0077/0280/6579/products/HTB1U_KpXizxK1RjSspjq6AS.pXaX_790x.jpg?v=1577778672" alt="attendee-3" class="attendee-profile">
+                      </div>
+                      <div class="joining-status">+ 13 Members</div>
+                  </div>
+                </div>
+                  
+
+              </div>
+          </div>
+
+        </div>  
+
+    </body>
+</html>
